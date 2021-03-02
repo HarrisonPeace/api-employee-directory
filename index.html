@@ -1,26 +1,24 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><strong></strong>
-<title>Employee Directory</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
-</head>
+<html lang="en">
+	<head>
+		<title>Employee Directory</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
 
-<body>
-	<header>
-		<h1 id="directory-heading">Employee Directory</h1>
-        <input type="search" id="search" placeholder="Search" onkeyup="searchFunction()" name="search" autocomplete="off">
-	</header>
-	<main id="employee-directory">
-	
-	</main>
-	<aside id="employee-overlay">
-	
-	</aside>
-	<footer>
-	
-	</footer>
-</body>
-<script src="script.js"></script>
+	<body>
+		<header>
+			<h1 id="directory-heading">Employee Directory</h1>
+			<input type="search" id="search" placeholder="Search" onkeyup="searchFunction()" name="search" autocomplete="off">
+		</header>
+		<main id="employee-directory"></main>
+		<aside id="employee-overlay"></aside>
+		<aside id="screen-overlay"></aside>
+		<aside id="arrows">
+			<img src="img/right-arrow.svg" id="left-arrow" alt="left-arrow">
+			<img src="img/right-arrow.svg" id="right-arrow" alt="right-arrow">
+		</aside>
+		<script src="script.js"></script>
+	</body>
 </html>
