@@ -199,7 +199,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	height: 30px;
     position: relative;
     left: 120px;
-    top: -5px;
+    top: -3px;
 }
 
 /*----- The below must stay in this order otherwise will mess with tranistion animation ----- */
@@ -282,7 +282,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	
 	.close-icon {
 		left: 120px;
-		top: -7px;
+		top: 5px;
 	}
 
 	input[type="search"] {
