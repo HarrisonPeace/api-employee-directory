@@ -30,7 +30,7 @@ function createEmployeeProfiles(data) {
 	//collate employee info
 	const employeeInfo = data.map(employee => `
 		<div class="employee-info" id="${employee.name.first.toLowerCase()}-${employee.name.last.toLowerCase()}-directory">
-            <img src="${employee.picture.medium}">
+            <img src="${employee.picture.large}">
 			<div>
                 <h3>${employee.name.first} ${employee.name.last}</h3>
                 <p><a href="mailto:${employee.email}">${employee.email}</a></p>
