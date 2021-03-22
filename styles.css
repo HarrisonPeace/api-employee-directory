@@ -87,7 +87,7 @@ p {
 }
 
 #directory-heading {
-	padding-left: 26.5px;
+	padding-left: 7px;
 	font-family: var(--font-main-headings);
 	font-weight: 100;
 	letter-spacing: 4px;
@@ -100,7 +100,7 @@ p {
 /*----------------------    Search   ------------------------*/
 
 input[type="search"] {
-	margin: 0 0 25px 26.5px;
+	margin: 0 0 25px 7px;
 	padding: 5px;
 	width: 175px;
 	border: solid 1.5px var(--border-color);
@@ -199,7 +199,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	height: 30px;
     position: relative;
     left: 120px;
-    top: -3px;
+    top: 8px;
 }
 
 /*----- The below must stay in this order otherwise will mess with tranistion animation ----- */
@@ -263,6 +263,9 @@ input[type="search"]::-webkit-search-results-decoration {
 ============================================================================*/
 
 @media (min-width: 425px) {
+	#directory-heading {
+		padding-left: 26.5px;
+	}
 	#employee-directory {
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 		padding: 0 25px;
